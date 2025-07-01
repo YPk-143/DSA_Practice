@@ -17,7 +17,7 @@ public class MissingNumber {
 				max = arr[i];
 		}
 
-		System.out.println("Yaswanth Pavan Kumar.");
+		System.out.println("Yaswanth");
 
 		return (sumOfArr);
 	}

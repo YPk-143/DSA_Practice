@@ -39,13 +39,14 @@ public class PalindromePyramidPattern {
 		int n = sc.nextInt();
 		sc.close();
 		for (int i = 1; i <= n; i++) {
+			char ch = 'A';
 			for (int j = 0; j < i; j++) {
-				int sum = 65 + j;
-				System.out.print((char) sum + " ");
+				System.out.print(ch + " ");
+				ch++;
 			}
+			ch--;
 			for (int j = i - 1; j >= 1; j--) {
-				int sum = 64 + j;
-				System.out.print((char) sum + " ");
+				System.out.print(--ch + " ");
 			}
 			System.out.println();
 		}

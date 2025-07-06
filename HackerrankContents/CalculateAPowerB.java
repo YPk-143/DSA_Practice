@@ -1,4 +1,4 @@
-package com.DSA.MathProb;
+package com.DSA.HackerrankContents;
 
 import java.util.Scanner;
 
